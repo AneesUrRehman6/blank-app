@@ -12,17 +12,17 @@ st.title("Sign Language Translator")
 st.image("2(1).png")
 
 # Load model
-model = tf.keras.models.load_model("model.keras", compile=False)
-labels = [chr(i) for i in range(65, 91)]
+# model = tf.keras.models.load_model("model.keras", compile=False)
+# labels = [chr(i) for i in range(65, 91)]
 
-#classes 
-classes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
-           'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
-           'W', 'X', 'Y', 'Z', 'del', 'nothing', 'space']
+# #classes 
+# classes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
+#            'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
+#            'W', 'X', 'Y', 'Z', 'del', 'nothing', 'space']
 
-# MediaPipe hands
-mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1)
+# # MediaPipe hands
+# mp_hands = mp.solutions.hands
+# hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1)
 
 
 
