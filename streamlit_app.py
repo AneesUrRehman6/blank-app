@@ -2,7 +2,7 @@ import streamlit as st
 # import cv2
 # import mediapipe as mp
 # import numpy as np
-# import tensorflow as tf
+import tensorflow as tf
 # import time
 # from collections import deque
 
