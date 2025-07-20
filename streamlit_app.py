@@ -26,7 +26,7 @@ hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1)
 
 
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Character"
 )
 
 st.write("Hello World ")
