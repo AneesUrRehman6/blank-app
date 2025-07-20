@@ -16,7 +16,8 @@ from PIL import Image
 
 
 try:
-    img = Image.open("2(1).png")
+    # img = Image.open("2(1).png")
+    img = ("2(1).png")
     st.image(img, caption="Opened with PIL")
 except Exception as e:
     st.error(f"Failed to open image with PIL: {e}")
