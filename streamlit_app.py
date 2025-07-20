@@ -9,7 +9,7 @@ import streamlit as st
 
 st.title("Sign Language Translator")
 
-st.image("2(1).png")
+# st.image("2(1).png")
 
 # Load model
 # model = tf.keras.models.load_model("model.keras", compile=False)
