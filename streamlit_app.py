@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 # import cv2
 # import mediapipe as mp
 # import numpy as np
@@ -7,6 +8,11 @@ import streamlit as st
 # from collections import deque
 
 
+
+# From local file
+st.header("Display Local Image")
+image = Image.open("2(1).png")
+st.image(image, caption="Local Image", use_column_width=True)
 st.title("Sign Language Translator")
 
 # st.image("2(1).png")
@@ -27,7 +33,7 @@ st.title("Sign Language Translator")
 
 
 st.write(
-    "Character"
+    "Character:"
 )
 
 st.write("Hello World ")
