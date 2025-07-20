@@ -6,6 +6,10 @@ import tensorflow as tf
 import time
 from collections import deque
 
+
+st.title("Sign Language Translator")
+
+
 # Load model
 model = tf.keras.models.load_model("model.keras", compile=False)
 labels = [chr(i) for i in range(65, 91)]
@@ -20,7 +24,7 @@ mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1)
 
 
-st.title("Sign Language Translator")
+
 st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
