@@ -2,13 +2,14 @@ import streamlit as st
 # import cv2
 # import mediapipe as mp
 # import numpy as np
-import tensorflow as tf
+# import tensorflow as tf
 # import time
 # from collections import deque
 
 
 st.title("Sign Language Translator")
 
+st.image(load_image("2(1).png"))
 
 # Load model
 model = tf.keras.models.load_model("model.keras", compile=False)
