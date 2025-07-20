@@ -15,7 +15,13 @@ from PIL import Image
 # st.image(image, caption="Local Image", use_column_width=True)
 
 
-st.image("2(1).png")  # Works normally
+try:
+    img = Image.open("2(1).png")
+    st.image(img, caption="Opened with PIL")
+except Exception as e:
+    st.error(f"Failed to open image with PIL: {e}")
+
+
 
 st.title("Sign Language Translator")
 
