@@ -10,9 +10,13 @@ from PIL import Image
 
 
 # From local file
-st.header("Display Local Image")
-image = Image.open("2(1).png")
-st.image(image, caption="Local Image", use_column_width=True)
+# st.header("Display Local Image")
+# image = Image.open("2(1).png")
+# st.image(image, caption="Local Image", use_column_width=True)
+
+
+st.image("2(1).png")  # Works normally
+
 st.title("Sign Language Translator")
 
 # st.image("2(1).png")
