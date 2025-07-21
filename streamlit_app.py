@@ -43,8 +43,8 @@ st.title("Sign Language Translator")
 
 
 
-st.write(
-    "Character:"
-)
+# st.write(
+#     "Character:"
+# )
 
 
