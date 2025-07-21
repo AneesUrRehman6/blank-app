@@ -22,7 +22,7 @@ from PIL import Image
 # except Exception as e:
 #     st.error(f"Failed to open image with PIL: {e}")
 
-
+st.image("prediction of v.png ")
 
 st.title("Sign Language Translator")
 
@@ -44,48 +44,7 @@ st.title("Sign Language Translator")
 
 
 st.write(
-    "
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    Character:"
+    "Character:"
 )
 
 st.write("Hello World ")
