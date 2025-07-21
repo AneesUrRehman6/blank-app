@@ -47,5 +47,4 @@ st.write(
     "Character:"
 )
 
-st.write("Hello World ")
 
