@@ -44,7 +44,48 @@ st.title("Sign Language Translator")
 
 
 st.write(
-    "Character:"
+    "
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    Character:"
 )
 
 st.write("Hello World ")
